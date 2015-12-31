@@ -2,7 +2,7 @@
   "name": "baod.io-admin",
   "version": "1.0.0",
   "description": "Admin app for http://baod.io",
-  "main": "index.js",
+  "main": "lib/node_modules/app",
   "scripts": {
     "compile": "babel -d lib src",
     "prepublish": "in-publish && npm run compile || not-in-publish",
